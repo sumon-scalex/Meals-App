@@ -1,0 +1,30 @@
+.meal-detail-main-container {
+  padding-inline: 2rem;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+
+.meal-detail-main-container ::-webkit-scrollbar {
+  width: 6px;
+}
+.meal-detail-main-container ::-webkit-scrollbar-thumb {
+  background: #b8b8b8;
+  border-radius: 5px;
+}
+
+.details-div-1 {
+  display: flex;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+.meal-img-1 {
+  height: 400px;
+}
+
+.recipe-text {
+  font-family: cursive;
+}
+.recipe-text > span {
+  font-weight: 600;
+}
